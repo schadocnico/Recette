@@ -1,4 +1,4 @@
-package fr.engrenage.recette;
+package fr.engrenage.recettes;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
