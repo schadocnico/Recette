@@ -1,4 +1,4 @@
-package fr.engrenage.recette;
+package fr.engrenage.recettes;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
