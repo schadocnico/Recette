@@ -3,7 +3,7 @@
     <item
         android:id="@+id/navigation_fav"
         android:icon="@drawable/ic_favorite_border_black_24dp"
-        android:title="@string/favories"/>
+        android:title="@string/favories" />
 
     <item
         android:id="@+id/navigation_home"
