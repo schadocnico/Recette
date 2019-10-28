@@ -1,4 +1,4 @@
-package fr.engrenage.recette;
+package fr.engrenage.recettes;
 
 import org.junit.Test;
 

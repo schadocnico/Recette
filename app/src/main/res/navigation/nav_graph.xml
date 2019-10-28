@@ -9,17 +9,17 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="fr.engrenage.recette.HomeFragment"
+        android:name="fr.engrenage.recettes.HomeFragment"
         android:label="@string/home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/navigation_fav"
-        android:name="fr.engrenage.recette.FavoriesFragment"
+        android:name="fr.engrenage.recettes.FavoriesFragment"
         android:label="@string/favories"
         tools:layout="@layout/fragment_favories" />
     <fragment
         android:id="@+id/navigation_panier"
-        android:name="fr.engrenage.recette.PanierFragment"
+        android:name="fr.engrenage.recettes.PanierFragment"
         android:label="@string/panier"
         tools:layout="@layout/fragment_panier" />
 </navigation>

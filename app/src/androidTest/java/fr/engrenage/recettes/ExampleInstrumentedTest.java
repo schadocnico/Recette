@@ -1,4 +1,4 @@
-package fr.engrenage.recette;
+package fr.engrenage.recettes;
 
 import android.content.Context;
 
