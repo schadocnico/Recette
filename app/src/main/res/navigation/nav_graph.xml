@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/navigation_home" >
+
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="fr.engrenage.recette.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_fav"
+        android:name="fr.engrenage.recette.FavoriesFragment"
+        android:label="@string/favories"
+        tools:layout="@layout/fragment_favories" />
+    <fragment
+        android:id="@+id/navigation_panier"
+        android:name="fr.engrenage.recette.PanierFragment"
+        android:label="@string/panier"
+        tools:layout="@layout/fragment_panier" />
+</navigation>
