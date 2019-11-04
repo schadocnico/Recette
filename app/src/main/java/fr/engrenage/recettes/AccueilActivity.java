@@ -10,6 +10,8 @@ import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import fr.engrenage.recette.R;
+
 public class AccueilActivity extends AppCompatActivity {
 
     @Override
