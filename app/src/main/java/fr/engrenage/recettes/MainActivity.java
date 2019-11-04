@@ -9,7 +9,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import fr.engrenage.recette.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,13 +22,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
+        final Intent intent = new Intent().setClass(this, AccueilActivity.class);
 
         TimerTask task  = new TimerTask() {
             @Override
             public void run() {
-                Intent accueilActivity = new Intent(MainActivity.this, AccueilActivity.class);
-                startActivity(accueilActivity);
+
+                startActivity(intent);
             }
         };
         Timer t = new Timer();
