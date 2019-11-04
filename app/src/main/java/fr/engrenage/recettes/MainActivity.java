@@ -1,14 +1,15 @@
-package fr.engrenage.recette;
+package fr.engrenage.recettes;
 
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Timer;
 import java.util.TimerTask;
+
+import fr.engrenage.recette.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         TimerTask task  = new TimerTask() {
             @Override
             public void run() {
-                Intent acceuilActivity = new Intent(MainActivity.this, AcceuilActivity.class);
-                startActivity(acceuilActivity);
+                Intent accueilActivity = new Intent(MainActivity.this, AccueilActivity.class);
+                startActivity(accueilActivity);
             }
         };
         Timer t = new Timer();
