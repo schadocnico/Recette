@@ -10,12 +10,12 @@ import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class MainActivity extends AppCompatActivity {
+public class AccueilActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_accueil);
         BottomNavigationView bottomNavigationView = findViewById(R.id.navigationView);
 
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
