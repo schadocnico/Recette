@@ -9,6 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+<<<<<<< HEAD
+=======
+import fr.engrenage.recette.R;
+
+>>>>>>> origin/master
 public class FavoriesFragment extends Fragment {
 
     @Nullable
