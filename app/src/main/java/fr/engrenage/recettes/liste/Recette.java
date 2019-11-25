@@ -1,4 +1,4 @@
-package fr.engrenage.recettes;
+package fr.engrenage.recettes.liste;
 
 import java.util.List;
 
